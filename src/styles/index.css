@@ -1,11 +1,35 @@
-/* 
 
-    You can write your own styles here...
+body {
+    background-color: #f8f9fa;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+ 
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
 
-*/
+  .jumbotron-custom {
+    background-color: #e9ecef;
+    padding: 3rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+
+  .card {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
